@@ -1,4 +1,3 @@
-import React from "react";
 import { Favorite, FavoriteBorder, MoreVert, Share } from "@mui/icons-material";
 import {
   Avatar,
@@ -11,13 +10,12 @@ import {
   IconButton,
   Typography,
 } from "@mui/material";
-
 const Post = () => {
   return (
-    <Card sx={{margin: "10px"}}>
+    <Card sx={{ margin: 5 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "blue" }} aria-label="recipe">
+          <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
             R
           </Avatar>
         }
@@ -26,13 +24,13 @@ const Post = () => {
             <MoreVert />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="John Doe"
+        subheader="September 14, 2022"
       />
       <CardMedia
         component="img"
         height="20%"
-        image="https://www.google.com/imgres?imgurl=https%3A%2F%2Ftrucoslondres.com%2Fwp-content%2Fuploads%2F2017%2F05%2Fplaya.jpg&imgrefurl=https%3A%2F%2Ftrucoslondres.com%2Faprender-ingles%2Fvocabulario%2Fplaya-ingles%2F&tbnid=JJyWXw5c0dlsRM&vet=12ahUKEwiSz5qas7r3AhWXPt8KHYWHBi4QMygBegUIARDgAQ..i&docid=crfr47keTLpt8M&w=1366&h=768&q=image%20playa&ved=2ahUKEwiSz5qas7r3AhWXPt8KHYWHBi4QMygBegUIARDgAQ"
+        image="https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         alt="Paella dish"
       />
       <CardContent>
